@@ -1,0 +1,77 @@
+body{
+    margin: 0em;
+}
+div{
+    margin: 0em;
+    padding: 100px 100px 400px;
+}
+h1{
+    color:#fa7d09 ;
+    position: relative;
+    top: 12rem;
+    left: 3rem;
+    display: inline-block;
+    text-align: center;
+    padding-left: 50px;
+    font-family: 'Sora', sans-serif;
+    font-size: 2.5rem;
+    line-height: 2;
+}
+h2{
+    padding-top: 5rem;
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 2.5rem;
+    color: #fa7d09;
+}
+
+/* *********************************First section**************************** */
+.FirstDiv{
+    font-family: 'Roboto Slab', serif;;
+
+    background-image: linear-gradient(45deg,#4a3f35, #4a3f35 50%, #fa7d09 50%, #fa7d09 );
+}
+
+#image{
+    position: absolute;
+    top: 20%;
+    right: 20%;
+    font-size: 15rem;
+    
+}
+
+/* *********************************Second section**************************** */
+.SecondDiv{
+    text-align: center;
+    background-color: #f4ea8e;
+    padding-bottom: 100px;
+}
+
+
+.paraOne{
+    font-family: 'Sora', sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+}
+
+/* *********************************Third section**************************** */
+.ThirdDiv{
+    background-color: #4a3f35;
+}
+.ThirdDiv img{
+    height: 300px;
+    width: 600px;
+}
+.heading2{
+    position: relative;
+    bottom: 8rem;
+    padding-right:100px;
+}
+
+/* ********************fONTS**************************** */
+
+
+/* font-family: 'Roboto Slab', serif;
+font-family: 'Sora', sans-serif; */
