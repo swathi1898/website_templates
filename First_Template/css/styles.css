@@ -18,7 +18,7 @@ h1{
     line-height: 2;
 }
 h2{
-    padding-top: 5rem;
+   
     padding-left: 0em;
     display: inline-block;
     width: 30%;
@@ -34,7 +34,7 @@ h2{
     margin: 0em;
     font-family: 'Roboto Slab', serif;;
     width: 100%;
-    height: 10%;
+    
     background-image: linear-gradient(45deg,#4a3f35, #4a3f35 50%, #fa7d09 50%, #fa7d09 );
 }
 .row{
@@ -69,15 +69,21 @@ h2{
 /* *********************************Third section**************************** */
 .ThirdDiv{
     background-color: #4a3f35;
+    height: fit-content;
+    padding: 100px;
+    text-align: center;
 }
 .ThirdDiv img{
+    padding: 50px;
+    
     height: 300px;
     width: 600px;
 }
 .heading2{
-    position: relative;
-    bottom: 8rem;
-    padding-right:100px;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    padding:0px;
 }
 
 /* ********************fONTS**************************** */
@@ -85,7 +91,7 @@ h2{
 @media (max-width:900px){
     .FirstDiv{
         background-image: linear-gradient(30deg, #fa7d09 50%, #4a3f35 50% );
-        /* display: inline-block; */
+        padding-top: 2rem;
     }
     .row{
         text-align: center;
@@ -99,16 +105,12 @@ h2{
 
     h1{
         font-size: 2rem;
-        text-align: initial;
-        color:#fa7d09 ;
+        text-align: center;
         position: relative;
         top: 1rem;
         left: 1rem;
-        display: inline-block;
-        width: 50%;
-        text-align: center;
+        width: 70%;
         padding:0;
-        line-height: 2;
     }
     #image{
         padding-top: 20%;
@@ -121,10 +123,13 @@ h2{
         display: inline-block;
         width: 100%;
         font-size: 2rem;
+        text-align: center;
   
     }
     .SecondDiv{
-        padding:50px
+        padding:50px;
+        height: fit-content;
+        width: fit-content;
     }
     
     
@@ -137,19 +142,21 @@ h2{
     /* ******** */
     .ThirdDiv{
         background-color: #4a3f35;
-        height: 500px;
+        height: fit-content;
+        padding: 50px;
     }
 
     .heading2{
-
+        text-align: center;
         position: relative;
         bottom: 2rem;
         padding:0;
     }
     .ThirdDiv img{
-        text-align: center;
-        height: 150px;
-        width: 300px;
+        text-align: left;
+        height: 200px;
+        width: 400px;
+        padding: 0;
     }
 
 }
