@@ -19,9 +19,10 @@ h1{
 }
 h2{
     padding-top: 5rem;
+    padding-left: 0em;
     display: inline-block;
     width: 30%;
-    text-align: center;
+    text-align: left;
     font-family: 'Roboto Slab', serif;
     font-size: 2.5rem;
     color: #fa7d09;
@@ -29,16 +30,24 @@ h2{
 
 /* *********************************First section**************************** */
 .FirstDiv{
+    padding: 0em;
+    margin: 0em;
     font-family: 'Roboto Slab', serif;;
-
+    width: 100%;
+    height: 10%;
     background-image: linear-gradient(45deg,#4a3f35, #4a3f35 50%, #fa7d09 50%, #fa7d09 );
 }
-
+.row{
+    text-align: center;
+    padding: 0em;
+    margin: 0em;
+}
 #image{
-    position: absolute;
+    /* position: absolute;
     top: 20%;
-    right: 20%;
+    right: 20%; */
     font-size: 15rem;
+   
     
 }
 
@@ -54,6 +63,7 @@ h2{
     font-family: 'Sora', sans-serif;
     font-weight: 300;
     font-size: 2rem;
+    text-align: left;
 }
 
 /* *********************************Third section**************************** */
@@ -72,6 +82,76 @@ h2{
 
 /* ********************fONTS**************************** */
 
+@media (max-width:900px){
+    .FirstDiv{
+        background-image: linear-gradient(30deg, #fa7d09 50%, #4a3f35 50% );
+        /* display: inline-block; */
+    }
+    .row{
+        text-align: center;
+        padding: 0em;
+        margin: 0em;
+     }
+     .col-lg-6{
+         padding: 0em;
+         margin: 0em;
+     }
 
+    h1{
+        font-size: 2rem;
+        text-align: initial;
+        color:#fa7d09 ;
+        position: relative;
+        top: 1rem;
+        left: 1rem;
+        display: inline-block;
+        width: 50%;
+        text-align: center;
+        padding:0;
+        line-height: 2;
+    }
+    #image{
+        padding-top: 20%;
+        text-align: initial;
+    }
+    /* ***** */
+    h2{
+        padding-top: 0em;
+        padding-left: 0em;
+        display: inline-block;
+        width: 100%;
+        font-size: 2rem;
+  
+    }
+    .SecondDiv{
+        padding:50px
+    }
+    
+    
+    .paraOne{
+        font-family: 'Sora', sans-serif;
+        font-weight: 300;
+        font-size: 1rem;
+        text-align: left;
+    }
+    /* ******** */
+    .ThirdDiv{
+        background-color: #4a3f35;
+        height: 500px;
+    }
+
+    .heading2{
+
+        position: relative;
+        bottom: 2rem;
+        padding:0;
+    }
+    .ThirdDiv img{
+        text-align: center;
+        height: 150px;
+        width: 300px;
+    }
+
+}
 /* font-family: 'Roboto Slab', serif;
 font-family: 'Sora', sans-serif; */
