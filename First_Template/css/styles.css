@@ -28,6 +28,17 @@ h2{
     color: #fa7d09;
 }
 
+button{
+    background-image: linear-gradient(#fa7d09,#f5b273);
+    border: solid white 2px;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 1rem;
+    border-radius:10%;
+    font-family: 'Sora', sans-serif;
+}
+
 /* *********************************First section**************************** */
 .FirstDiv{
     padding: 0em;
@@ -160,5 +171,12 @@ h2{
     }
 
 }
+
+
+
+
+
+
+
 /* font-family: 'Roboto Slab', serif;
 font-family: 'Sora', sans-serif; */
