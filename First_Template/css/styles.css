@@ -3,25 +3,21 @@ body{
 }
 div{
     margin: 0em;
-    padding: 100px 100px 400px;
+    padding: 200px;
 }
 h1{
     color:#fa7d09 ;
-    position: relative;
-    top: 12rem;
-    left: 3rem;
-    display: inline-block;
-    text-align: center;
-    padding-left: 50px;
-    font-family: 'Sora', sans-serif;
-    font-size: 2.5rem;
-    line-height: 2;
+
+}
+.fab{
+    color: #fa7d09;
+    font-size: 8rem;
 }
 h2{
    
     padding-left: 0em;
     display: inline-block;
-    width: 30%;
+    width: 50%;
     text-align: left;
     font-family: 'Roboto Slab', serif;
     font-size: 2.5rem;
@@ -29,14 +25,16 @@ h2{
 }
 
 button{
-    background-image: linear-gradient(#fa7d09,#f5b273);
-    border: solid white 2px;
-    color: white;
+    background-image: linear-gradient(#fa7d09,#ff9a3b);
+    border: solid #fa7d09 1.5px;
     text-align: center;
     display: inline-block;
     font-size: 1rem;
     border-radius:10%;
     font-family: 'Sora', sans-serif;
+}
+button:hover{
+    background-image: linear-gradient(#ff9a3b,#fcb97c);
 }
 
 /* *********************************First section**************************** */
@@ -46,27 +44,20 @@ button{
     font-family: 'Roboto Slab', serif;;
     width: 100%;
     
-    background-image: linear-gradient(45deg,#4a3f35, #4a3f35 50%, #fa7d09 50%, #fa7d09 );
+    background-color: #4a3f35;
 }
 .row{
     text-align: center;
     padding: 0em;
     margin: 0em;
 }
-#image{
-    /* position: absolute;
-    top: 20%;
-    right: 20%; */
-    font-size: 15rem;
-   
-    
-}
+
 
 /* *********************************Second section**************************** */
 .SecondDiv{
     text-align: center;
     background-color: #f4ea8e;
-    padding-bottom: 100px;
+    padding: 50px;
 }
 
 
@@ -84,24 +75,64 @@ button{
     padding: 100px;
     text-align: center;
 }
-.ThirdDiv img{
+.anatomyImg1{
     padding: 50px;
-    
     height: 300px;
-    width: 600px;
+    width: 50%;
+    margin: 0 auto 0 auto;
 }
+
 .heading2{
     display: inline-block;
     text-align: center;
     width: 100%;
     padding:0px;
 }
+.anatomy1{
+    text-align: center;
+    width: 100%;
+    padding: 2%;
+    background: #F8FFB4 0% 0% no-repeat padding-box;
+    border: 5px solid #ff9a3b;
+    border-radius: 30px;
+    opacity: 1;
+}
+.anatomy1 h4{
+    padding: 0 2%;
+    color: #000000;
+    display: inline;}
+.element{
+    text-align: center;
+    width: 100%;
+    padding: 2%;
+    margin-top: 5%;
+    background: #b4f4ff 0% 0% no-repeat padding-box;
+    border: 5px solid #6983fa;
+    border-radius: 30px;
+    opacity: 1;
+}
+.element h4{
+    color: #6983fa ;
+}
+table{
+    width: 100%;
+    border: solid rgb(129, 147, 173) 1.5px;
+    
+}
+table img{
+    width: 200px;
+    height: 150px;
+}
+
+th, td{
+    border: solid rgb(129, 147, 173) 1px;
+}
 
 /* ********************fONTS**************************** */
 
 @media (max-width:900px){
     .FirstDiv{
-        background-image: linear-gradient(30deg, #fa7d09 50%, #4a3f35 50% );
+        text-align: center;
         padding-top: 2rem;
     }
     .row{
@@ -123,17 +154,20 @@ button{
         width: 70%;
         padding:0;
     }
-    #image{
-        padding-top: 20%;
-        text-align: initial;
+    button{
+        width: 15% ;
+        line-height: 1;
+        font-size: 0.5rem;
     }
+   .responsive-width{
+       font-size: 3vw;
+   }
     /* ***** */
     h2{
         padding-top: 0em;
         padding-left: 0em;
         display: inline-block;
         width: 100%;
-        font-size: 2rem;
         text-align: center;
   
     }
@@ -169,7 +203,78 @@ button{
         width: 200px;
         padding: 0;
     }
-
+    .anatomy1{
+        margin-top: 5%;
+    }
+    .anatomy1 img{
+        width:80px;
+        height: 70px;
+    }
+    h4,h2{
+        font-size: 1rem;
+    }
+    h1{
+        font-size: 1.2rem;
+        margin: 0% auto;
+    }
+    .fab{
+        padding-top: 5% ;
+        font-size: 4rem;
+    }
+  
+    table{
+        font-size: 0.8rem;
+        margin: 0% auto;
+    }
+  
+    .element img{
+        width: 50px;
+        height: 40px;
+    }
+    table caption {
+      font-size: 1.3em;
+    }
+    
+    table thead {
+      border: none;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+    }
+    
+    table tr {
+      border-bottom: 3px solid rgb(85, 84, 84);
+      display: block;
+      margin-bottom: .625em;
+    }
+    
+    table td {
+      border-bottom: 1px solid #ddd;
+      display: block;
+      font-size: .8em;
+      text-align: center;
+    }
+   
+    table td::before {
+      /*
+      * aria-label has no advantage, it won't be read inside a table
+      content: attr(aria-label);
+      */
+      content: attr(data-label);
+      float: left;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    
+    table td:last-child {
+      border-bottom: 0;
+    }
+	
+	
 }
 
 
