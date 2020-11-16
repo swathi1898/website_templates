@@ -18,7 +18,7 @@ h2{
     padding-left: 0em;
     display: inline-block;
     width: 50%;
-    text-align: left;
+    text-align: center;
     font-family: 'Roboto Slab', serif;
     font-size: 2.5rem;
     color: #fa7d09;
@@ -92,6 +92,7 @@ button:hover{
     text-align: center;
     width: 100%;
     padding: 2%;
+    margin: 3% 0;
     background: #F8FFB4 0% 0% no-repeat padding-box;
     border: 5px solid #ff9a3b;
     border-radius: 30px;
@@ -101,20 +102,10 @@ button:hover{
     padding: 0 2%;
     color: #000000;
     display: inline;}
-.element{
-    text-align: center;
-    width: 100%;
-    padding: 2%;
-    margin-top: 5%;
-    background: #b4f4ff 0% 0% no-repeat padding-box;
-    border: 5px solid #6983fa;
-    border-radius: 30px;
-    opacity: 1;
-}
-.element h4{
-    color: #6983fa ;
-}
+
+
 table{
+    margin-top: 3%;
     width: 100%;
     border: solid rgb(129, 147, 173) 1.5px;
     
@@ -205,10 +196,17 @@ th, td{
     }
     .anatomy1{
         margin-top: 5%;
+        
     }
+  
     .anatomy1 img{
-        width:80px;
-        height: 70px;
+        width:250px;
+        height: 90px;
+        
+    } 
+    
+    .anatomy1 h4{
+        text-align: left;
     }
     h4,h2{
         font-size: 1rem;
@@ -218,7 +216,7 @@ th, td{
         margin: 0% auto;
     }
     .fab{
-        padding-top: 5% ;
+        padding: 5% 0 ;
         font-size: 4rem;
     }
   
