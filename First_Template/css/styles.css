@@ -191,16 +191,19 @@ th, td{
     .ThirdDiv img{
         text-align: left;
         height: 100px;
-        width: 200px;
+        width: 150px;
         padding: 0;
     }
     .anatomy1{
         margin-top: 5%;
         
     }
-  
+   .heading2{
+       padding: 0%;
+       margin: 0%;
+   }
     .anatomy1 img{
-        width:250px;
+        width:150px;
         height: 90px;
         
     } 
